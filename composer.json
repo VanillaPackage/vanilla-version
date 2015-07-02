@@ -1,0 +1,21 @@
+{
+    "name": "rentalhost/vanilla-version",
+    "description": "The vanilla-version will help you to specify the version on your project.",
+
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^4.7"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Rentalhost\\VanillaVersion\\": "src/VanillaVersion/"
+        }
+    },
+
+    "authors": [{
+        "name": "David Rodrigues",
+        "email": "david.rodrigues@rentalhost.net"
+    }],
+    "license": "MIT"
+}

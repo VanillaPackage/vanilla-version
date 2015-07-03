@@ -122,6 +122,9 @@ class VersionTest extends PHPUnit_Framework_TestCase
         ];
     }
 
+    /**
+     * Capture InvalidOperatorException.
+     */
     public function testInvalidOperatorException()
     {
         $this->setExpectedException(Exception\InvalidOperatorException::class);
